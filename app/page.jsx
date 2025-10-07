@@ -32,7 +32,7 @@ const HomePage = () => {
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML &nbsp; &bull; &nbsp; CSS &nbsp; &bull; &nbsp; JavaScript, &nbsp; &bull; &nbsp; TypeScript &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; <span className="font-bold text-black">React.js</span> &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span></p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; SQL &nbsp; &bull; &nbsp; RESTFul APIs</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Postman &nbsp; &bull; &nbsp; Figma</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Postman &nbsp; &bull; &nbsp; Figma &nbsp; &bull; &nbsp; ChatGPT</p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Source Control : </span> Git &nbsp; &bull; &nbsp; GitHub </p>
         </div>
 
@@ -46,10 +46,10 @@ const HomePage = () => {
         <div>
           <h2 className="text-xl text-center">Strengths</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Eager to learn new skills : </span> As a person who is starting out, I am constantly seeking for new ways to grow and expand my skill set.</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Not afraid of failure : </span> Strong believer in the mantra that we learn from our mistakes.</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Time Management : </span> The habit of planning before executing and setting reasonable deadlines saved me at least 25% of my productive time.</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Collaborative : </span> With my current knowledge and abilities, I can confidently communicate with Front-end developers, Backend developers, Designers, and even Clients.</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Eager to learn : </span> Constantly new tools and techniques</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Resilient : </span> View failure as part of growth</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Time Efficient : </span> Plan before execution, saving up to 25% of productive time</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Collaborative : </span> Able to communicate well with developers (both Back-end and Front-end), Designers, and even Clients</p>
         </div>
 
         <div>
@@ -58,17 +58,24 @@ const HomePage = () => {
           <h3 className="text-lg">Property KH - A Property Listing Site</h3>
           <div className="space-y-2">
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Features : </span> Authentication (Google Accounts) &nbsp; &bull; &nbsp; Browse Properties &nbsp; &bull; &nbsp; Search for specific properties &nbsp; &bull; &nbsp;  Message property owners &nbsp; &bull; &nbsp; Post, Update, Delete, Bookmark Properties &nbsp; &bull; &nbsp; View User's Profile</p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> React.js &nbsp; &bull; &nbsp; Next.js &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Cloudinary &nbsp; &bull; &nbsp; Other minor libraries...</p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (JavaScript) &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span> &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Cloudinary &nbsp; &bull; &nbsp; Other minor libraries...</p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh">https://github.com/Snah19/property-kh</a> &nbsp; &bull; &nbsp; (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh-api">https://github.com/Snah19/property-kh-api</a></p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://property-kh-75gh.vercel.app">https://property-kh-75gh.vercel.app</a></p>
           </div>
-          <h3 className="mt-5 text-lg">Property KH - A Property Listing Site</h3>
+          <h3 className="mt-5 text-lg">X (Twitter) clone - Realtime Social Media Platform</h3>
           <div className="space-y-2">
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Features : </span> </p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> </p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Features : </span>Authentication (Username + Password) &nbsp; &bull; &nbsp; Realtime For You/Following feeds + Infinite Scroll &nbsp; &bull; &nbsp; Realtime Notifications &nbsp; &bull; &nbsp; Ability to update profile image, cover image, and information like username, fullname, email, link, bio, and password  &nbsp; &bull; &nbsp; Upload text and images as a post &nbsp; &bull; &nbsp; Delete existing posts &nbsp; &bull; &nbsp; Follow/Unfollow other users &nbsp; &bull; &nbsp; View User's Profile &nbsp; &bull; &nbsp; Like/Unlike, Repost/Unrepost, Favorite/Un-favorite, Comment on posts in realtime &nbsp; &bull; &nbsp; Reply and like Comments in realtime</p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (TypeScript) &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span> &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; Node.js &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Cloudinary &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Other minor libraries...</p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/x-frontend">https://github.com/Snah19/x-frontend</a> &nbsp; &bull; &nbsp; (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/x-backend">https://github.com/Snah19/x-backend</a></p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://x-frontend-three.vercel.app">https://x-frontend-three.vercel.app</a></p>
           </div>
+        </div>
+
+        <div>
+          <h2 className="text-xl text-center">Languages</h2>
+          <hr />
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Khmer : </span> Native</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">English : </span> Proficient (Reading/Writing/Listening/Speaking)</p>
         </div>
       </div>
     </main>
