@@ -30,9 +30,9 @@ const HomePage = () => {
         <div>
           <h2 className="text-xl text-center">Industry Skills</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML &nbsp; &bull; &nbsp; CSS &nbsp; &bull; &nbsp; JavaScript, &nbsp; &bull; &nbsp; TypeScript &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; <span className="font-bold text-black">React.js</span> &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span></p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML &nbsp; &bull; &nbsp; CSS &nbsp; &bull; &nbsp; JavaScript &nbsp; &bull; &nbsp; TypeScript &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; <span className="font-bold text-black">React.js</span> &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span></p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; SQL &nbsp; &bull; &nbsp; RESTFul APIs</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Postman &nbsp; &bull; &nbsp; Figma &nbsp; &bull; &nbsp; ChatGPT</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary &nbsp; &bull; &nbsp; npm &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Postman &nbsp; &bull; &nbsp; Figma &nbsp; &bull; &nbsp; ChatGPT</p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Source Control : </span> Git &nbsp; &bull; &nbsp; GitHub </p>
         </div>
 
@@ -46,10 +46,10 @@ const HomePage = () => {
         <div>
           <h2 className="text-xl text-center">Strengths</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Eager to learn : </span> Constantly new tools and techniques</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Resilient : </span> View failure as part of growth</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Time Efficient : </span> Plan before execution, saving up to 25% of productive time</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Collaborative : </span> Able to communicate well with developers (both Back-end and Front-end), Designers, and even Clients</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Good understanding of Object-Oriented Programming</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Good understanding of SQL Query</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with RESTFul APIs</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with <span className="text-black">Responsive Design</span></p>
         </div>
 
         <div>
