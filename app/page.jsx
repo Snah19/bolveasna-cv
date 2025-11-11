@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <main className="w-[1000px] mx-auto p-10">
       <h1 className="text-2xl font-bold text-center">BOL VEASNA</h1>
-      <p className={`${roboto.className} text-sm text-center text-gray-700`}>Web Developer</p>
+      <p className={`${roboto.className} text-sm text-center text-gray-700`}>Web Developer (React + Next.js)</p>
       <p className={`${roboto.className} text-sm text-center text-gray-700`}>+855 96 273 277 6 &nbsp; &bull; &nbsp; vibolveasna2004@gmail.com &nbsp; &bull; &nbsp; linkedin.com/in/veasna-bol-14538328b &nbsp; &bull; &nbsp; github.com/Snah19 </p>
       <div className="my-5 space-y-5">
         <div>
