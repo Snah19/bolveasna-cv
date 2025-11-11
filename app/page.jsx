@@ -4,13 +4,13 @@ const HomePage = () => {
   return (
     <main className="w-[1000px] mx-auto p-10">
       <h1 className="text-2xl font-bold text-center">BOL VEASNA</h1>
-      <p className={`${roboto.className} text-sm text-center text-gray-700`}>Front-end Developer</p>
+      <p className={`${roboto.className} text-sm text-center text-gray-700`}>Web Developer</p>
       <p className={`${roboto.className} text-sm text-center text-gray-700`}>+855 96 273 277 6 &nbsp; &bull; &nbsp; vibolveasna2004@gmail.com &nbsp; &bull; &nbsp; linkedin.com/in/veasna-bol-14538328b &nbsp; &bull; &nbsp; github.com/Snah19 </p>
       <div className="my-5 space-y-5">
         <div>
           <h2 className="text-xl text-center">Summary</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}>After hundreds of hours of learning, practicing, and building various projects including small demos, Frontend Mentor challenges, and 2 personal full-stack web applications. I am confident in my ability to bring Figma designs to life and am ready to pursue a professional career in Front-end Development.</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>After hundreds of hours of learning, practicing, and building various projects including small demos, Frontend Mentor challenges, and 3 personal full-stack web applications. I am confident in my ability to bring Figma designs to life and am ready to pursue a professional career in Web Development.</p>
         </div>
 
         <div>
@@ -30,10 +30,10 @@ const HomePage = () => {
         <div>
           <h2 className="text-xl text-center">Industry Skills</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML &nbsp; &bull; &nbsp; CSS &nbsp; &bull; &nbsp; JavaScript &nbsp; &bull; &nbsp; TypeScript &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; <span className="font-bold text-black">React.js</span> &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span></p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; SQL &nbsp; &bull; &nbsp; RESTFul APIs</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary &nbsp; &bull; &nbsp; npm &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Postman &nbsp; &bull; &nbsp; Figma &nbsp; &bull; &nbsp; ChatGPT</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Source Control : </span> Git &nbsp; &bull; &nbsp; GitHub </p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML, CSS, JavaScript, TypeScript, Tailwind CSS, <span className="font-bold text-black">React.js</span>, <span className="font-bold text-black">Next.js</span></p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js, Express.js, MongoDB, SQL, RESTFul APIs</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary, npm, React Query, NextAuth, Socket.io, Postman, Figma, ChatGPT</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Source Control : </span> Git, GitHub </p>
         </div>
 
         <div>
@@ -57,17 +57,21 @@ const HomePage = () => {
           <hr />
           <h3 className="text-lg">Property KH - A Property Listing Site</h3>
           <div className="space-y-2">
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Features : </span> Authentication (Google Accounts) &nbsp; &bull; &nbsp; Browse Properties &nbsp; &bull; &nbsp; Search for specific properties &nbsp; &bull; &nbsp;  Message property owners &nbsp; &bull; &nbsp; Post, Update, Delete, Bookmark Properties &nbsp; &bull; &nbsp; View User's Profile</p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (JavaScript) &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span> &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Cloudinary &nbsp; &bull; &nbsp; Other minor libraries...</p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (JavaScript), <span className="font-bold text-black">Next.js</span>, Tailwind CSS, Express.js, MongoDB, NextAuth, Cloudinary, Other minor libraries...</p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh">https://github.com/Snah19/property-kh</a> &nbsp; &bull; &nbsp; (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh-api">https://github.com/Snah19/property-kh-api</a></p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://property-kh-75gh.vercel.app">https://property-kh-75gh.vercel.app</a></p>
           </div>
-          <h3 className="mt-5 text-lg">X (Twitter) clone - Realtime Social Media Platform</h3>
+          <h3 className="mt-5 text-lg">X clone - Realtime Social Media Platform</h3>
           <div className="space-y-2">
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Features : </span>Authentication (Username + Password) &nbsp; &bull; &nbsp; Realtime For You/Following feeds + Infinite Scroll &nbsp; &bull; &nbsp; Realtime Notifications &nbsp; &bull; &nbsp; Ability to update profile image, cover image, and information like username, fullname, email, link, bio, and password  &nbsp; &bull; &nbsp; Upload text and images as a post &nbsp; &bull; &nbsp; Delete existing posts &nbsp; &bull; &nbsp; Follow/Unfollow other users &nbsp; &bull; &nbsp; View User's Profile &nbsp; &bull; &nbsp; Like/Unlike, Repost/Unrepost, Favorite/Un-favorite, Comment on posts in realtime &nbsp; &bull; &nbsp; Reply and like Comments in realtime</p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (TypeScript) &nbsp; &bull; &nbsp; <span className="font-bold text-black">Next.js</span> &nbsp; &bull; &nbsp; React Query &nbsp; &bull; &nbsp; Tailwind CSS &nbsp; &bull; &nbsp; Node.js &nbsp; &bull; &nbsp; Express.js &nbsp; &bull; &nbsp; MongoDB &nbsp; &bull; &nbsp; NextAuth &nbsp; &bull; &nbsp; Cloudinary &nbsp; &bull; &nbsp; Socket.io &nbsp; &bull; &nbsp; Other minor libraries...</p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/x-frontend">https://github.com/Snah19/x-frontend</a> &nbsp; &bull; &nbsp; (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/x-backend">https://github.com/Snah19/x-backend</a></p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (TypeScript), <span className="font-bold text-black">Next.js</span>, React Query, Tailwind CSS, Node.js, Express.js, MongoDB, NextAuth, Cloudinary, Socket.io, Other minor libraries...</p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/x-frontend">https://github.com/Snah19/x-frontend</a> | (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/x-backend">https://github.com/Snah19/x-backend</a></p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://x-frontend-three.vercel.app">https://x-frontend-three.vercel.app</a></p>
+          </div>
+          <h3 className="mt-5 text-lg">YouTube clone - Video media platform</h3>
+          <div className="space-y-2">
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (TypeScript), <span className="font-bold text-black">Next.js</span>, tRPC, Drizzle ORM, Neon (PostgreSQL), React Query, Zod, Clerk, Mux, UploadThing, Upstash (Redis + Rate Limit), Tailwind CSS, ShadCN UI, Ngrok</p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : <a className="text-blue-500" href="https://github.com/Snah19/youtubeclone" target="_blank">https://github.com/Snah19/youtubeclone</a> </span></p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://youtubeclonebysnah.vercel.app/">https://youtubeclonebysnah.vercel.app</a></p>
           </div>
         </div>
 
