@@ -30,9 +30,9 @@ const HomePage = () => {
         <div>
           <h2 className="text-xl text-center">Industry Skills</h2>
           <hr />
-          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML, CSS, JavaScript, TypeScript, Tailwind CSS, <span className="font-bold text-black">React.js</span>, <span className="font-bold text-black">Next.js</span></p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js, Express.js, MongoDB, SQL, RESTFul APIs</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>Cloudinary, npm, React Query, NextAuth, Socket.io, Postman, Figma, ChatGPT</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML, CSS, JavaScript, TypeScript, Tailwind CSS, ShadCN UI, <span className="font-bold text-black">React.js</span>, <span className="font-bold text-black">Next.js</span></p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js, Express.js, MongoDB, PostgreSQL, tRPC, Drizzle ORM, RESTFul APIs</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Libraries & Tools : </span>npm, bun, React Query, Zod, NextAuth, Clerk, Cloudinary, Mux, Socket.io, Postman, Ngrok, Figma, ChatGPT</p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Source Control : </span> Git, GitHub </p>
         </div>
 
@@ -47,9 +47,12 @@ const HomePage = () => {
           <h2 className="text-xl text-center">Strengths</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}>Good understanding of Object-Oriented Programming</p>
-          <p className={`${roboto.className} text-sm text-gray-700`}>Good understanding of SQL Query</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with databases both relational and non-relational</p>
           <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with RESTFul APIs</p>
           <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with <span className="text-black">Responsive Design</span></p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Proficient and effective working with both Server Components and Client Components</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Have a good mental model of how things are connected together</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Able to solve technical problems independently with creative and researched solutions</p>
         </div>
 
         <div>
@@ -58,7 +61,7 @@ const HomePage = () => {
           <h3 className="text-lg">Property KH - A Property Listing Site</h3>
           <div className="space-y-2">
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Technologies : </span> <span className="font-bold text-black">React.js</span> (JavaScript), <span className="font-bold text-black">Next.js</span>, Tailwind CSS, Express.js, MongoDB, NextAuth, Cloudinary, Other minor libraries...</p>
-            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh">https://github.com/Snah19/property-kh</a> &nbsp; &bull; &nbsp; (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh-api">https://github.com/Snah19/property-kh-api</a></p>
+            <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Source code : </span> (Front-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh">https://github.com/Snah19/property-kh</a> | (Back-end) <a className="text-blue-500" href="https://github.com/Snah19/property-kh-api">https://github.com/Snah19/property-kh-api</a></p>
             <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Live website : </span> <a className="text-blue-500" href="https://property-kh-75gh.vercel.app">https://property-kh-75gh.vercel.app</a></p>
           </div>
           <h3 className="mt-5 text-lg">X clone - Realtime Social Media Platform</h3>
