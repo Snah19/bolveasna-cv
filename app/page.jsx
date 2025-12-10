@@ -1,20 +1,30 @@
 import { roboto } from "@/fonts";
+import Image from "next/image";
 
 const HomePage = () => {
   return (
     <main className="w-[1000px] mx-auto p-10">
-      <h1 className="text-2xl font-bold text-center">BOL VEASNA</h1>
-      <p className={`${roboto.className} text-sm text-center text-gray-700`}>Web Developer (React + Next.js)</p>
-      <p className={`${roboto.className} text-sm text-center text-gray-700`}>+855 96 273 277 6 &nbsp; &bull; &nbsp; vibolveasna2004@gmail.com &nbsp; &bull; &nbsp; linkedin.com/in/veasna-bol-14538328b &nbsp; &bull; &nbsp; github.com/Snah19 </p>
+      <div className="flex justify-between items-center">
+        <Image className="w-20 h-30" src="/me.jpg" width={853} height={1280} alt="" />
+        <div>
+          <h1 className="text-lg font-bold">Name: Bol Veasna</h1>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Position: Frontend Developer</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Tel: +855 96 273 277 6</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Email: vibolveasna2004@gmail.com</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>LinkedIn: linkedin.com/in/veasna-bol-14538328b</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>GitHub: github.com/Snah19 </p>
+        </div>
+      </div>
+      
       <div className="my-5 space-y-5">
         <div>
-          <h2 className="text-xl text-center">Summary</h2>
+          <h2 className="text-xl">Summary</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}>After hundreds of hours of learning, practicing, and building various projects including small demos, Frontend Mentor challenges, and 3 personal full-stack web applications. I am confident in my ability to bring Figma designs to life and am ready to pursue a professional career in Web Development.</p>
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Education</h2>
+          <h2 className="text-xl">Education</h2>
           <hr />
           <div className="flex justify-between">
             <h3>SETEC Institute</h3>
@@ -28,7 +38,7 @@ const HomePage = () => {
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Industry Skills</h2>
+          <h2 className="text-xl">Industry Skills</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Front-end : </span> HTML, CSS, JavaScript, TypeScript, Tailwind CSS, ShadCN UI, <span className="font-bold text-black">React.js</span>, <span className="font-bold text-black">Next.js</span></p>
           <p className={`${roboto.className} text-sm text-gray-700`}><span className="text-black">Back-end : </span> Node.js, Express.js, MongoDB, PostgreSQL, tRPC, Drizzle ORM, RESTFul APIs</p>
@@ -37,14 +47,14 @@ const HomePage = () => {
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Certifications</h2>
+          <h2 className="text-xl">Certifications</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">SETEC Institute : </span>Certificate of foundation year course</p>
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Udemy : </span> Next.js From Scratch by Brad Traversy</p>
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Strengths</h2>
+          <h2 className="text-xl">Strengths</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}>Good understanding of Object-Oriented Programming</p>
           <p className={`${roboto.className} text-sm text-gray-700`}>Proficient working with databases both relational and non-relational</p>
@@ -53,10 +63,11 @@ const HomePage = () => {
           <p className={`${roboto.className} text-sm text-gray-700`}>Proficient and effective working with both Server Components and Client Components</p>
           <p className={`${roboto.className} text-sm text-gray-700`}>Have a good mental model of how things are connected together</p>
           <p className={`${roboto.className} text-sm text-gray-700`}>Able to solve technical problems independently with creative and researched solutions</p>
+          <p className={`${roboto.className} text-sm text-gray-700`}>Eager to learn new things everyday</p>
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Personal Projects</h2>
+          <h2 className="text-xl">Personal Projects</h2>
           <hr />
           <h3 className="text-lg">Property KH - A Property Listing Site</h3>
           <div className="space-y-2">
@@ -79,7 +90,7 @@ const HomePage = () => {
         </div>
 
         <div>
-          <h2 className="text-xl text-center">Languages</h2>
+          <h2 className="text-xl">Languages</h2>
           <hr />
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">Khmer : </span> Native</p>
           <p className={`${roboto.className} text-sm text-gray-700`}> <span className="text-black">English : </span> Proficient (Reading/Writing/Listening/Speaking)</p>
